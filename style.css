@@ -1,24 +1,31 @@
 * {
-    list-style: none;
+  
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-body {
+body {    
     background-color: black;
 }
 
 .navegation {
     align-items: center;
+    box-shadow: 0 0.1rem 0.5rem #cff;
     display:flex ;
     justify-content: space-between;
+    padding: 18px 40px;
+    position: fixed;
     width: 100%;
 }
 
 .navegation .logo {
-    color: #FF1493
+    color: #FF1493;
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 
 .logo span {
@@ -31,22 +38,86 @@ body {
     gap: 5rem;
 }
 
-.navegation a {
+.navegation ul li a {
     color: #EE82EE;
     font-size: 17px;
     font-weight: 500;
     transition: color 1s;
 }
 
-.navegation a:hover {
+.navegation ul li a:hover {
     color:#FF1493;
 }
 
-.navegation i {
+.navegation ul i {
     color:#EE82EE ;
     cursor: pointer;
     font-size: 2rem;
 }
+
+.btn {
+    border: 0px;
+    background: none;
+    cursor: pointer;
+    display: none;
+    height: 32px;
+    position: relative;
+    width: 24px;
+}
+
+.btn .barra {
+    border-radius: 3px;
+    background: #FF1493;
+    display: block;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s;
+    width: 28px;
+}
+
+.btn .barra:nth-child(2) {
+    background:#EE82EE;
+}
+
+.home {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.home_text {
+    max-width: 37rem;
+}
+
+.home_text .text_h4 {
+    color: #EE82EE;
+    font-size: 1.7rem;
+} 
+
+.home_text .text_h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.home_text .text_p {
+    color: #EE82EE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
