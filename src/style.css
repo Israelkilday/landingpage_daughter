@@ -173,8 +173,12 @@ body {
     box-shadow: 0 0 0 10px #e5ff0044,
                 0 0 50px #e5ff00,
                 0 0 100px #e5ff00;
+<<<<<<< HEAD:src/style.css
     animation: colored_balls calc(130s / var(--i)) linear 2;
                                        
+=======
+    animation: colored_balls calc(130s / var(--i)) linear 2;                                   
+>>>>>>> 024487f557bb8a5727391f97d0f4946b2a9781bc:style.css
 }
 
 @keyframes colored_balls {
