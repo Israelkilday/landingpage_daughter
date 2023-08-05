@@ -27,10 +27,12 @@ body {
     color: #ff1c91;
     font-size: 1.7rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .logo span {
-    color:#fbf494
+    color:#fbf494;
+    text-transform: uppercase;
 }
 
 .navegation ul {
