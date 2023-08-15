@@ -102,7 +102,7 @@ body {
 .home_text .text_h4 {
     color: #ff1c91;
     font-size: 1.7rem;
-    margin: 4rem 0 1rem;
+    margin: 5rem 0 1rem;
 } 
 
 .home_text .text_h1 {
@@ -166,7 +166,7 @@ body {
     background-size: cover;
     box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem  #fbf494;
     height: 350px;
-    margin: 0 auto;
+    margin: 4rem auto 0;
     width: 350px;
     border-radius: 100%;
 }
