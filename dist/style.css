@@ -35,26 +35,28 @@ body {
     text-transform: uppercase;
 }
 
-.navegation ul {
+.navegation__nav-menu {
     align-items: center;
     display: flex;
     gap: 5rem;
 }
 
-.navegation ul li a {
+.navegation__nav-menu__nav-item a {
     color: #00c3da;
     font-size: 17px;
     font-weight: 500;
-    transition: all 0.8s;
+    transition: all 0.5s;
+    text-decoration: none;
 }
 
-.navegation ul li a:hover {
-    color:#fbf494;
-    font-size: 18px;
-    text-shadow: -0 -0.1rem 0.3rem #fbf494;
+.navegation__nav-menu__nav-item a:hover {
+    background: #00c3da;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:#0c192c;
 }
 
-.navegation ul i {
+.navegation__nav-menu i {
     color:#fbf494 ;
     cursor: pointer;
     font-size: 2rem;
@@ -117,7 +119,7 @@ body {
 
 .big_button {
     border-radius: 10px;
-    border-color:#00c3da;
+    border-color:#ff1c91;
     background:#0c192c;
     cursor: pointer;
     font-weight: 600;
@@ -129,6 +131,10 @@ body {
  .big_button__link {
     color:#00c3da;
 } 
+
+.big_button__link:hover {
+    color: #ff1c91;
+}
 
 @keyframes pulsation {
     0% {
