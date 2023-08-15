@@ -115,19 +115,20 @@ body {
     margin-bottom: 2rem;
 }
 
-.home_text .big_button {
+.big_button {
     border-radius: 10px;
-    border: none;
-    background-image: linear-gradient(45deg, #ff1c91, #00c3da);
+    border-color:#00c3da;
+    background:#0c192c;
     cursor: pointer;
     font-weight: 600;
-    padding: 15px 45px;
-    transition: color 1s;
+    font-size: 15px;
+    padding: 12px 42px;
+    /* transition: color 1s; */
 }
 
-.big_button__link {
-    color:#fbf494;
-}
+ .big_button__link {
+    color:#00c3da;
+} 
 
 @keyframes pulsation {
     0% {
@@ -140,8 +141,6 @@ body {
 }
 
 .home_text .big_button:hover {
-    background:#ff1c91;
-
     animation: pulsation;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
@@ -185,14 +184,14 @@ body {
     box-shadow: 0 0 0 10px #e5ff0044,
                 0 0 50px #e5ff00,
                 0 0 100px #e5ff00;
-    animation: colored_balls calc(130s / var(--i)) linear;
+    animation: colored_balls calc(130s / var(--i)) linear 2;
 }
 
 @keyframes colored_balls {
     0% {
         transform: translateY(100vh) scale(0);
     }
-
+    
     100% {
         transform: translateY(-10vh) scale(1);
     }
