@@ -27,7 +27,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav_menu {
+    .navegation__nav-menu {
         background:#0c192c;
         flex-direction: column;
         gap: -10px;
@@ -35,19 +35,19 @@
         position: fixed;
         right: -100%;
         top: 70px;
-        transition: all 0.8s;
+        transition: all 0.7s;
         width: 100%;
     }
 
-    .nav_menu.active {
+    .navegation__nav-menu.active {
         right: 0;
     }
 
-    .nav_menu .nav_item  {
+    .navegation__nav-menu__nav-item  {
         margin: 16px 0;
     }
 
-    .navegation ul li a:hover {
+    .navegation__nav-menu__nav-item:hover {
         color:#fbf494;
         font-size: 18px;
         text-shadow: -0 -0.1rem 0.3rem #fbf494;
