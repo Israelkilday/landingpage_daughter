@@ -47,11 +47,7 @@
         margin: 16px 0;
     }
 
-    .navegation__nav-menu__nav-item:hover {
-        color:#fbf494;
-        font-size: 18px;
-        text-shadow: -0 -0.1rem 0.3rem #fbf494;
-    }
+    
     
     .home {
         flex-direction: column;
