@@ -47,7 +47,10 @@
         margin: 16px 0;
     }
 
-    
+    .navegation__nav-menu__nav-item:hover {
+        transition: all 0.5s;
+        /* font-size: 18px; */
+    }
     
     .home {
         flex-direction: column;
